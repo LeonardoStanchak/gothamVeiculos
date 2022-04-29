@@ -16,7 +16,6 @@ public class gothamVeiculosMapper {
 				.cambio(got.getCambio())
 				.combustivel(got.getCombustivel())
 				.valor(got.getValor())
-				.idVendedor(got.getIdVendedor())
 				.vendido(got.getVendido())
 				.build();
 	}
@@ -31,7 +30,6 @@ public class gothamVeiculosMapper {
 				.cambio(dto.getCambio())
 				.combustivel(dto.getCombustivel())
 				.valor(dto.getValor())
-				.idVendedor(dto.getIdVendedor())
 				.vendido(dto.getVendido())
 				.build();
 	}

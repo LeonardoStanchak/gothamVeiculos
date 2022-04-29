@@ -13,7 +13,6 @@ public class gothamVeiculosDto {
 
 	private Long id;
 
-	private Long idVendedor;
 	private String veiculo;
 	private String montadora;
 	private String cambio;

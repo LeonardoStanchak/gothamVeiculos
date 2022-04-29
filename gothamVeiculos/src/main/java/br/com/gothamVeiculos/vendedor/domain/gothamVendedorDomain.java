@@ -1,4 +1,4 @@
-package br.com.gothamVeiculos.domain;
+package br.com.gothamVeiculos.vendedor.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,22 +11,18 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
-@Data
-@Table(name = "gotham")
 @Entity
-@SuperBuilder
 @NoArgsConstructor
+@SuperBuilder
 @AllArgsConstructor
-public class gothamVeiculosDomain {
+@Data
+@Table(name = "vendedor")
+public class gothamVendedorDomain {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
-	private String veiculo;
-	private String montadora;
-	private String cambio;
-	private String combustivel;
-	private String valor;
-	private Boolean vendido;
+	
+	private String vendedor;
+	private String unidade;
 
 }
